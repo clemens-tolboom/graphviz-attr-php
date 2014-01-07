@@ -54,6 +54,11 @@ final class Attributes {
         '#title' => 'Damping',
         '#description' => static::getReference('Damping', 'attrs#dDamping'),
       ),
+      'dir' => array(
+        'types' => 'N',
+        'value_type' => 'dirType',
+        '#description' => static::getReference('dir', 'attrs#dDir'),
+      ),
       'area' => array(
         'types' => 'NC',
         'default' => 1.0,
